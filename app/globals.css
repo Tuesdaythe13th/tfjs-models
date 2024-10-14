@@ -25,3 +25,28 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Custom classes */
+.container {
+  @apply p-5 text-center font-sans;
+}
+
+.form {
+  @apply my-5;
+}
+
+.input {
+  @apply mr-2;
+}
+
+.button {
+  @apply py-2 px-4 bg-blue-500 text-white rounded-lg cursor-pointer;
+}
+
+.result {
+  @apply mt-5 text-green-500;
+}
+
+.error {
+  @apply mt-5 text-red-500;
+}
